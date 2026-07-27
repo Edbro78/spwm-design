@@ -5,7 +5,7 @@
 const { useState } = React;
 
 function Login({ onLogin }) {
-  const [email, setEmail] = useState("isak@designtest.no");
+  const [email, setEmail] = useState("kontakt@investholding.no");
   const [pw, setPw] = useState("");
   return (
     <div style={{ minHeight: "100vh", display: "flex", background: "var(--gray-50)" }}>
@@ -15,7 +15,7 @@ function Login({ onLogin }) {
         <img src="../../assets/spwm-logo-white.svg" alt="Söderberg & Partners Wealth Management" style={{ height: 34, alignSelf: "flex-start" }} />
         <div>
           <div style={{ fontFamily: "var(--font-display)", fontWeight: 500, fontSize: 40, lineHeight: 1.15 }}>
-            Din formue,<br />forvaltet med omtanke.
+            Hele veien.
           </div>
           <div style={{ fontSize: 16, color: "var(--blue-200)", marginTop: 20, maxWidth: 420, lineHeight: 1.5 }}>
             Få full oversikt over investeringer og pensjon, og en direkte linje til din personlige rådgiver.

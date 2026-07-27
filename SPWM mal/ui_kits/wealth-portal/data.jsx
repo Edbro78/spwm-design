@@ -34,8 +34,7 @@ const DATA = {
     { category: "Bærekraft", title: "Nye krav til bærekraftsrapportering", excerpt: "Fra 2025 stilles strengere krav. Her er hva det betyr for porteføljen din." },
   ],
   advisors: [
-    { name: "André Lund Walker", role: "Senior rådgiver · Wealth Management", phone: "+47 922 14 087", email: "andre.walker@soderbergpartners.no", primary: true },
-    { name: "Michael V. Sivertsen", role: "Administrerende direktør", phone: "+47 951 33 210", email: "michael.sivertsen@soderbergpartners.no" },
+    { name: "Edvard Brøther", role: "Rådgiver · Wealth Management", phone: "97 57 33 87", email: "edvard.brother@soderbergpartnerswealth.no", primary: true },
   ],
 };
 window.DATA = DATA;

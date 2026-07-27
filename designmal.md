@@ -43,7 +43,7 @@
 Dette dokumentet er den autoritative designmalen for **Söderberg & Partners Wealth Management**-klientportalen. Den samler merkevare, fotografi (portrett + kontor), typografi, farger, spacing, komponenter, layout, ikonografi, innholdstonalitet og asset-katalog basert på filene i dette prosjektet.
 
 <div class="dm-callout">
-<strong>Produktsammendrag.</strong> En eksklusiv, moderne og rolig digital klientportal for formuesforvaltning. Visuelt uttrykk: nordisk institusjonell fintech — luftig, tilbakeholden, tillitsvekkende. Navy er blekk; blå er handling. Ingen emoji, ingen dekorative gradienter på flater.
+<strong>Produktsammendrag.</strong> En eksklusiv, moderne og rolig digital klientportal for formuesforvaltning. Slogan: <em>Hele veien.</em> Visuelt uttrykk: nordisk institusjonell fintech — luftig, tilbakeholden, tillitsvekkende. Navy er blekk; blå er handling. Ingen emoji, ingen dekorative gradienter på flater.
 </div>
 
 ---
@@ -76,11 +76,14 @@ Dette dokumentet er den autoritative designmalen for **Söderberg & Partners Wea
 |---|---|
 | Selskap | Söderberg & Partners |
 | Produktlinje | Wealth Management |
+| Slogan | **Hele veien.** |
 | Signaturfarge | Söderberg navy `#002359` |
 | Handlingsfarge | Blue Main `#0A5EDC` |
 | Logomark | Symmetrisk «skjell / vifte / blomst»-emblem |
 | Wordmark | «söderberg & partners» (to linjer) |
 | Deskriptor | «Wealth Management» (to linjer), skilt med tynn vertikal divider |
+| Eksempel-klient | Invest Holding AS |
+| Rådgiver (referanse) | Edvard Brøther — se §2.1 |
 
 ### 1.2 Logo-regler (ikke-forhandlingsbare)
 
@@ -226,23 +229,37 @@ Farget logomark (`#008ECC`, `#B3DFEF`, `#002359`) + wordmark i `#161616`. Brukes
 
 ### 2.1 Referanseportrett — rådgiver / profil
 
-Profesjonelle portretter brukes i **Rådgiver**-kort, «Din rådgiver», team-/kontaktflater og der en ekte person skal representere rådgivningen. Referansebildet i prosjektet er `Bilde Edv.jpg`.
+Profesjonelle portretter brukes i **Rådgiver**-kort, «Din rådgiver», team-/kontaktflater og der en ekte person skal representere rådgivningen. Referansebildet i prosjektet er `Bilde Edv.jpg` — **Edvard Brøther**.
+
+#### Rådgiver — kontakt (referanse)
+
+| Felt | Verdi |
+|---|---|
+| Navn | Edvard Brøther |
+| Rolle | Rådgiver · Wealth Management |
+| E-post | [edvard.brother@soderbergpartnerswealth.no](mailto:edvard.brother@soderbergpartnerswealth.no) |
+| Telefon | 97 57 33 87 |
+| Foto | `Bilde Edv.jpg` |
 
 <div class="dm-photo-row">
   <div class="dm-photo-hero">
-    <img src="Bilde%20Edv.jpg" alt="Referanseportrett — profesjonelt rådgiverbilde">
+    <img src="Bilde%20Edv.jpg" alt="Edvard Brøther — rådgiver">
     <div class="caption">
       <strong>Bilde Edv.jpg</strong>
-      Referanseportrett · brystopp · mørk bakgrunn · formell antrekk (navy/charcoal jakke, hvit skjorte, slips)
+      Edvard Brøther · brystopp · mørk bakgrunn · formell antrekk (navy/charcoal jakke, hvit skjorte, slips)
     </div>
   </div>
   <div>
     <div class="dm-photo-card" style="margin-bottom:16px;">
-      <img class="dm-photo-avatar" src="Bilde%20Edv.jpg" alt="Avatar-crop av portrett">
+      <img class="dm-photo-avatar" src="Bilde%20Edv.jpg" alt="Avatar — Edvard Brøther">
       <div>
         <div style="font-size:12px;color:var(--gray-500);margin-bottom:2px;">Din rådgiver</div>
-        <div style="font-size:16px;font-weight:600;color:var(--sp-navy);">Edvard</div>
+        <div style="font-size:16px;font-weight:600;color:var(--sp-navy);">Edvard Brøther</div>
         <div style="font-size:14px;color:var(--gray-600);margin-top:2px;">Wealth Management</div>
+        <div style="font-size:13px;color:var(--gray-600);margin-top:8px;line-height:1.45;">
+          <a href="mailto:edvard.brother@soderbergpartnerswealth.no" style="color:var(--blue-main);font-weight:500;">edvard.brother@soderbergpartnerswealth.no</a><br>
+          97 57 33 87
+        </div>
       </div>
     </div>
     <p style="font-size:13px;color:var(--gray-600);max-width:280px;margin:0;">
@@ -720,10 +737,14 @@ Eksempel KPI:
 - Brukes i rådgiverkort («Din rådgiver»), kontaktflater og profil.
 
 <div class="dm-photo-card" style="margin:16px 0 24px;">
-  <img class="dm-photo-avatar" src="Bilde%20Edv.jpg" alt="Rådgiver-avatar">
+  <img class="dm-photo-avatar" src="Bilde%20Edv.jpg" alt="Rådgiver-avatar — Edvard Brøther">
   <div>
     <div style="font-size:12px;color:var(--gray-500);">Din rådgiver</div>
-    <div style="font-size:16px;font-weight:600;color:var(--sp-navy);margin-top:2px;">Edvard</div>
+    <div style="font-size:16px;font-weight:600;color:var(--sp-navy);margin-top:2px;">Edvard Brøther</div>
+    <div style="font-size:13px;color:var(--gray-600);margin-top:6px;line-height:1.45;">
+      <a href="mailto:edvard.brother@soderbergpartnerswealth.no" style="color:var(--blue-main);font-weight:500;">edvard.brother@soderbergpartnerswealth.no</a><br>
+      97 57 33 87
+    </div>
     <a style="font-size:14px;font-weight:600;color:var(--blue-main);display:inline-block;margin-top:8px;">Book et møte →</a>
   </div>
 </div>
@@ -797,8 +818,10 @@ Hold charts rene — data først, ingen dekorativ støy.
 ### 10.1 Språk og tone
 
 - **Norsk bokmål** i all UI.
+- **Slogan:** *Hele veien.* — brukes i login/brand-flater, presentasjoner og merkevarekontekst (sentence case, med punktum).
 - Tone: rolig, presis, rådgivende — aldri selgende eller leken.
 - Person: diskret eierskap («Dine rådgivere», «Din rådgiver»).
+- Eksempel-klient i mocks/prototyper: **Invest Holding AS** (ikke personnavn i klientvelger).
 - Tap/negativ avkastning oppgis ærlig, ikke skjules.
 - **Ingen emoji. Ingen slang.**
 
@@ -879,7 +902,7 @@ Ingen bounce, parallax eller looping dekorativ animasjon. Translucens kun for mo
 | **Investeringer** | Performance-chart, periode-chips, fordeling, beholdningstabell |
 | **Pensjon** | Pensjonschart, avtaleliste, estimert pensjon |
 | **Dokumenter** | Dokumentliste (type/dato/størrelse/nedlasting) |
-| **Rådgiver** | Rådgiverkort med portrett (`Bilde Edv.jpg`) + «Book et møte» CTA |
+| **Rådgiver** | Rådgiverkort for Edvard Brøther (foto, e-post, telefon) + «Book et møte» CTA |
 | **Tilbakemelding** | Feedback-flate |
 
 Referanseimplementasjon: `SPWM mal/ui_kits/wealth-portal/` (åpne `index.html`).
@@ -922,7 +945,7 @@ Referanseimplementasjon: `SPWM mal/ui_kits/wealth-portal/` (åpne `index.html`).
 
 | Fil | Type | Beskrivelse |
 |---|---|---|
-| `Bilde Edv.jpg` | JPG | Referanseportrett for rådgiver/profil (mørk bakgrunn, formell antrekk) |
+| `Bilde Edv.jpg` | JPG | Portrett av rådgiver Edvard Brøther (mørk bakgrunn, formell antrekk) |
 | `Kontoret.jpg` | JPG | Kontor / lokasjon — Telegrafbygningen sett fra Byparken, Bergen |
 
 ### 14.3 Fonter

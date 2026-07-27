@@ -10,7 +10,7 @@ function Hjem({ navigate }) {
       <PageHeader title="Oversikt" />
       <div>
         <div style={{ fontFamily: "var(--font-display)", fontSize: 20, color: "var(--gray-600)" }}>God ettermiddag,</div>
-        <div style={{ fontFamily: "var(--font-display)", fontWeight: 500, fontSize: 28, color: "var(--sp-navy)" }}>Isak Design Test AS</div>
+        <div style={{ fontFamily: "var(--font-display)", fontWeight: 500, fontSize: 28, color: "var(--sp-navy)" }}>Invest Holding AS</div>
       </div>
       <div style={{ display: "flex", gap: 24, flexWrap: "wrap" }}>
         <KpiCard title="Investeringer" {...DATA.invest} color="var(--chart-violet)"

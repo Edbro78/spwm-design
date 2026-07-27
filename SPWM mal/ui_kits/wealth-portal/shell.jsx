@@ -53,7 +53,7 @@ function Sidebar({ active, onNavigate, onLogout }) {
 }
 
 function ClientSelector({ mobile }) {
-  const clients = ["Isak Design Test AS", "Familien Berg Holding", "Privat — Isak Berg"];
+  const clients = ["Invest Holding AS", "Familien Berg Holding", "Privat — Invest Holding"];
   const [open, setOpen] = useStateShell(false);
   const [sel, setSel] = useStateShell(0);
   return (

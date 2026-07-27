@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":3,"namespace":"SDerbergPartnersWMDesignSystem_d1de3e","components":[],"sourceHashes":{"ui_kits/wealth-portal/app.jsx":"d0b951964f0e","ui_kits/wealth-portal/cards.jsx":"c5de36ccacc7","ui_kits/wealth-portal/charts.jsx":"60ad2f7cd144","ui_kits/wealth-portal/data.jsx":"a75e054b6fd5","ui_kits/wealth-portal/primitives.jsx":"48d138fa243a","ui_kits/wealth-portal/screens.jsx":"4ba5353a75b3","ui_kits/wealth-portal/shell.jsx":"24a74612c004","ui_kits/wealth-portal/tables.jsx":"980d8bb001a4"},"inlinedExternals":[],"unexposedExports":[]} */
+﻿/* @ds-bundle: {"format":3,"namespace":"SDerbergPartnersWMDesignSystem_d1de3e","components":[],"sourceHashes":{"ui_kits/wealth-portal/app.jsx":"d0b951964f0e","ui_kits/wealth-portal/cards.jsx":"c5de36ccacc7","ui_kits/wealth-portal/charts.jsx":"60ad2f7cd144","ui_kits/wealth-portal/data.jsx":"a75e054b6fd5","ui_kits/wealth-portal/primitives.jsx":"48d138fa243a","ui_kits/wealth-portal/screens.jsx":"4ba5353a75b3","ui_kits/wealth-portal/shell.jsx":"24a74612c004","ui_kits/wealth-portal/tables.jsx":"980d8bb001a4"},"inlinedExternals":[],"unexposedExports":[]} */
 
 (() => {
 
@@ -12,7 +12,7 @@ const __ds_scope = {};
 try { (() => {
 /* global React, ReactDOM, Sidebar, MobileTopbar, PageHeader, Button, Input, Icon, Hjem, Investeringer, Pensjon, Dokumenter, Radgiver */
 // ============================================================================
-// App — login + authenticated portal shell + simple router
+// App â€” login + authenticated portal shell + simple router
 // ============================================================================
 const {
   useState
@@ -20,7 +20,7 @@ const {
 function Login({
   onLogin
 }) {
-  const [email, setEmail] = useState("isak@designtest.no");
+  const [email, setEmail] = useState("kontakt@investholding.no");
   const [pw, setPw] = useState("");
   return /*#__PURE__*/React.createElement("div", {
     style: {
@@ -53,7 +53,7 @@ function Login({
       fontSize: 40,
       lineHeight: 1.15
     }
-  }, "Din formue,", /*#__PURE__*/React.createElement("br", null), "forvaltet med omtanke."), /*#__PURE__*/React.createElement("div", {
+  }, "Hele veien."), /*#__PURE__*/React.createElement("div", {
     style: {
       fontSize: 16,
       color: "var(--blue-200)",
@@ -253,7 +253,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(/*#__PURE__*/React.c
 try { (() => {
 /* global React, Icon, Badge, Card, LineChart, nok, pct */
 // ============================================================================
-// Content cards — KPI value card, news card, advisor card, section helpers
+// Content cards â€” KPI value card, news card, advisor card, section helpers
 // ============================================================================
 
 function SectionTitle({
@@ -521,7 +521,7 @@ Object.assign(window, {
 try { (() => {
 /* global React */
 // ============================================================================
-// Charts — SVG line chart (with area fill) + doughnut allocation
+// Charts â€” SVG line chart (with area fill) + doughnut allocation
 // ============================================================================
 
 // Build a smooth-ish path from values normalized to a viewBox.
@@ -690,7 +690,7 @@ Object.assign(window, {
 // ui_kits/wealth-portal/data.jsx
 try { (() => {
 // ============================================================================
-// Sample data — realistic Norwegian wealth-management figures
+// Sample data â€” realistic Norwegian wealth-management figures
 // ============================================================================
 const DATA = {
   invest: {
@@ -775,27 +775,22 @@ const DATA = {
   news: [{
     category: "Markedssyn",
     title: "Et sterkt kvartal for globale aksjer",
-    excerpt: "Verdens børser leverte bredt i andre kvartal, drevet av lavere inflasjon og forventninger om rentekutt."
+    excerpt: "Verdens bÃ¸rser leverte bredt i andre kvartal, drevet av lavere inflasjon og forventninger om rentekutt."
   }, {
     category: "Pensjon",
-    title: "Slik påvirker rentebanen pensjonen din",
-    excerpt: "Langsiktige renter har falt — vi ser på hva det betyr for fremtidig pensjonskapital."
+    title: "Slik pÃ¥virker rentebanen pensjonen din",
+    excerpt: "Langsiktige renter har falt â€” vi ser pÃ¥ hva det betyr for fremtidig pensjonskapital."
   }, {
-    category: "Bærekraft",
-    title: "Nye krav til bærekraftsrapportering",
-    excerpt: "Fra 2025 stilles strengere krav. Her er hva det betyr for porteføljen din."
+    category: "BÃ¦rekraft",
+    title: "Nye krav til bÃ¦rekraftsrapportering",
+    excerpt: "Fra 2025 stilles strengere krav. Her er hva det betyr for portefÃ¸ljen din."
   }],
   advisors: [{
-    name: "André Lund Walker",
-    role: "Senior rådgiver · Wealth Management",
-    phone: "+47 922 14 087",
-    email: "andre.walker@soderbergpartners.no",
+    name: "Edvard Brøther",
+    role: "Rådgiver · Wealth Management",
+    phone: "97 57 33 87",
+    email: "edvard.brother@soderbergpartnerswealth.no",
     primary: true
-  }, {
-    name: "Michael V. Sivertsen",
-    role: "Administrerende direktør",
-    phone: "+47 951 33 210",
-    email: "michael.sivertsen@soderbergpartners.no"
   }]
 };
 window.DATA = DATA;
@@ -805,7 +800,7 @@ window.DATA = DATA;
 try { (() => {
 /* global React */
 // ============================================================================
-// Söderberg & Partners WM — UI Kit primitives
+// SÃ¶derberg & Partners WM â€” UI Kit primitives
 // Button, Badge, Avatar, Input, Money/Return formatters
 // ============================================================================
 const {
@@ -814,12 +809,12 @@ const {
 
 // --- formatting helpers (Norwegian) ---
 function nok(n) {
-  const sign = n < 0 ? "−" : "";
+  const sign = n < 0 ? "âˆ’" : "";
   const s = Math.round(Math.abs(n)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
   return sign + s + " kr";
 }
 function pct(n) {
-  const sign = n < 0 ? "−" : "+";
+  const sign = n < 0 ? "âˆ’" : "+";
   return sign + Math.abs(n).toFixed(2).replace(".", ",") + " %";
 }
 
@@ -1117,7 +1112,7 @@ try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 /* global React, DATA, PageHeader, KpiCard, NewsCard, AdvisorCard, AssetAllocation, HoldingsTable, SectionTitle, Card, LineChart, Badge, Icon, Button, nok, pct */
 // ============================================================================
-// Screens — page bodies for the portal
+// Screens â€” page bodies for the portal
 // ============================================================================
 const colGap = {
   display: "flex",
@@ -1144,7 +1139,7 @@ function Hjem({
       fontSize: 28,
       color: "var(--sp-navy)"
     }
-  }, "Isak Design Test AS")), /*#__PURE__*/React.createElement("div", {
+  }, "Invest Holding AS")), /*#__PURE__*/React.createElement("div", {
     style: {
       display: "flex",
       gap: 24,
@@ -1233,7 +1228,7 @@ function PerfHeader({
       gap: 8,
       alignItems: "center"
     }
-  }, ["1M", "3M", "1Å", "Siden start"].map((p, i) => /*#__PURE__*/React.createElement("span", {
+  }, ["1M", "3M", "1Ã…", "Siden start"].map((p, i) => /*#__PURE__*/React.createElement("span", {
     key: p,
     style: {
       fontSize: 13,
@@ -1292,7 +1287,7 @@ function Pensjon() {
       color: "var(--sp-navy)",
       marginBottom: 14
     }
-  }, "Pensjonsavtaler"), [["Innskuddspensjon (OTP)", 812400], ["Egen pensjonskonto", 254834], ["IPS — Individuell sparing", 133000]].map(([n, v]) => /*#__PURE__*/React.createElement("div", {
+  }, "Pensjonsavtaler"), [["Innskuddspensjon (OTP)", 812400], ["Egen pensjonskonto", 254834], ["IPS â€” Individuell sparing", 133000]].map(([n, v]) => /*#__PURE__*/React.createElement("div", {
     key: n,
     style: {
       display: "flex",
@@ -1363,17 +1358,17 @@ function Dokumenter() {
     date: "02.06.2024",
     size: "1,8 MB"
   }, {
-    name: "Årsoppgave 2023",
+    name: "Ã…rsoppgave 2023",
     type: "Oppgave",
     date: "15.01.2024",
     size: "640 kB"
   }, {
-    name: "Porteføljeanalyse — mai 2024",
+    name: "PortefÃ¸ljeanalyse â€” mai 2024",
     type: "Analyse",
     date: "03.05.2024",
     size: "2,1 MB"
   }, {
-    name: "Avtaledokument — forvaltning",
+    name: "Avtaledokument â€” forvaltning",
     type: "Avtale",
     date: "12.11.2023",
     size: "320 kB"
@@ -1493,7 +1488,7 @@ Object.assign(window, {
 try { (() => {
 /* global React, Icon, Badge */
 // ============================================================================
-// App shell — Sidebar (desktop), PageHeader, Topbar (mobile)
+// App shell â€” Sidebar (desktop), PageHeader, Topbar (mobile)
 // ============================================================================
 const {
   useState: useStateShell
@@ -1516,7 +1511,7 @@ const NAV = [{
   icon: "file"
 }, {
   id: "radgiver",
-  label: "Rådgiver",
+  label: "RÃ¥dgiver",
   icon: "conversation"
 }];
 function NavItem({
@@ -1627,7 +1622,7 @@ function Sidebar({
 function ClientSelector({
   mobile
 }) {
-  const clients = ["Isak Design Test AS", "Familien Berg Holding", "Privat — Isak Berg"];
+  const clients = ["Invest Holding AS", "Familien Berg Holding", "Privat — Invest Holding"];
   const [open, setOpen] = useStateShell(false);
   const [sel, setSel] = useStateShell(0);
   return /*#__PURE__*/React.createElement("div", {
@@ -1805,7 +1800,7 @@ Object.assign(window, {
 try { (() => {
 /* global React, Icon, Card, Doughnut, nok, pct, SectionTitle */
 // ============================================================================
-// Tables — Asset allocation overview + Holdings (Beholdning)
+// Tables â€” Asset allocation overview + Holdings (Beholdning)
 // ============================================================================
 
 const th = {
